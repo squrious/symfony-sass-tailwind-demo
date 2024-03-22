@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+$hello-color: #ff0000;
+
+.hello {
+  span {
+    color: $hello-color;
+  }
+}

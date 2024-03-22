@@ -1,0 +1,7 @@
+framework:
+    asset_mapper:
+        # The paths to make available to the asset mapper.
+        paths:
+            - assets/
+symfonycasts_tailwind:
+    input_css: "%kernel.project_dir%/var/sass/app.output.css"
